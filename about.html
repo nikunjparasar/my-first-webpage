@@ -1,0 +1,137 @@
+<html>
+
+  <head>
+    <link rel="stylesheet" type="text/css" href="about.css">
+    <link rel="stylesheet" type="text/css" href="animate.css">
+    <script src = "jquery-3.2.1.js"></script> 
+    <title>About Me</title>
+
+
+
+    <script>
+  function animationClick(element, animation){
+    element = $(element);
+    element.click(
+  function() {
+    element.addClass('animated ' + animation);
+    window.setTimeout( function(){
+    element.removeClass('animated ' + animation);
+    }, 2000);
+    });
+    }
+  function animationHover(element, animation){
+    element = $(element);
+    element.hover(
+  function() {
+    element.addClass('animated ' + animation);
+    },
+  function(){
+    window.setTimeout( function(){
+    element.removeClass('animated ' + animation);
+    }, 2000);
+    });
+    }
+    
+
+
+    $(document).ready(function(){
+    
+
+    
+    $('.navbar').each(function() {
+    animationHover(this, 'jello');
+    });
+    
+
+
+    $('.container').each(function() {
+    animationHover(this, 'swing');
+    });
+    
+
+
+
+    });
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+
+
+
+
+    <meta charset="UTF-8">
+    <title>About Me</title>
+    <link rel="stylesheet" href="bouncing.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.11.4/paper-full.min.js"></script>
+    
+  </head>
+
+
+
+    <body background= " http://worldwebmind.com/wp-content/uploads/2016/07/banner1_bg.jpg">
+
+
+  <div id="page">
+    <div id="logo">
+      <h1 style = "color: white">Let Me Introduce Myself...</</h1>
+    </div>
+    <div id="nav">
+      <ul>
+        <li class = "navbar"><a href="index.html">Home</a></li>
+        <li class = "navbar" style = "font-size: 150%"><a href="about.html"><b><i>About Me</i></b></a></li>
+        <li class = "navbar"><a href="sports.html">Sports</a></li>
+ 
+        <li class = "navbar"><a href="contact.html">Contact</a></li>
+      </ul> 
+    </div>
+    <div id="content">
+
+          <div class = "container">
+            <a href= "https://www.nike.com/us/en_us/"><img src = "https://deedeesonesixthsense.files.wordpress.com/2010/09/nike-just-do-it2-300x300.jpg?w=300"></img></a>
+
+          </div>
+      <h2 style = "color:white">About Me</h2>
+      <p>
+        Hi there, My name is Nikunj Parasar, and I am going to eigth grade at Laswon Middle School
+      </p>
+      <br>
+       
+        <p>Just Do It - Nike</p>
+        <br>
+        <p>We all dream of our passionate ideas of what we can do in this strange world. Our passions then lead us to create experiences and realities that we can remember forever.</p>
+        <br>
+        <p>Some say you only live once. But it if you do it right, once is enough.</p>
+
+
+    </div>
+    <div id="footer">
+      <p>
+        Webpage made by <a href="about.html">Nikunj Parasar</a>
+      </p>
+    </div>
+
+
+      <marquee direction="down" width="100%" height="15%" behavior="alternate" style="border:solid 0px">
+        <marquee behavior="alternate" style = "font-family: impact; font-size:150%; color: white;">
+          Just Do It
+        </marquee>
+      </marquee>
+
+  </div>
+
+
+    </body>
+
+
+</html>

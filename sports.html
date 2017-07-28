@@ -1,0 +1,164 @@
+
+<html>
+
+  <head>
+    <link rel="stylesheet" type="text/css" href="sports.css">
+    <link rel="stylesheet" type="text/css" href="animate.css">
+    <script src = "jquery-3.2.1.js"></script> 
+    <title>sports</title>
+
+
+
+    <script>
+  function animationClick(element, animation){
+    element = $(element);
+    element.click(
+  function() {
+    element.addClass('animated ' + animation);
+    window.setTimeout( function(){
+    element.removeClass('animated ' + animation);
+    }, 2000);
+    });
+    }
+  function animationHover(element, animation){
+    element = $(element);
+    element.hover(
+  function() {
+    element.addClass('animated ' + animation);
+    },
+  function(){
+    window.setTimeout( function(){
+    element.removeClass('animated ' + animation);
+    }, 2000);
+    });
+    }
+    
+
+
+    $(document).ready(function(){
+    
+
+    
+    $('.navbar').each(function() {
+    animationHover(this, 'jello');
+    });
+    
+
+
+    $('.container').each(function() {
+    animationHover(this, 'swing');
+    });
+    
+
+
+
+    });
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+
+
+
+
+    <meta charset="UTF-8">
+    <title>sports</title>
+    <link rel="stylesheet" href="bouncing.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.11.4/paper-full.min.js"></script>
+    
+  </head>
+
+
+
+    <body background= "http://www.fixflo.com/wp-content/uploads/2016/06/Hero-background.jpg">
+
+
+  <div id="page">
+
+  	    <div id="nav">
+	      <ul>
+	        <li class = "navbar"><a href="index.html">Home</a></li>
+	        <li class = "navbar"><a href="about.html">About Me</a></li>
+	        <li class = "navbar" style = "font-size: 150%"><a href="sports.html"><b><i>Sports</i></b></a></li>
+
+	        <li class = "navbar"><a href="contact.html">Contact</a></li>
+	      </ul> 
+	    </div>
+
+	    <br>
+	    	 
+
+	    	 <iframe width="100%" height="30%" src="https://www.youtube.com/embed/i_nNfNcdBOY?controls=0&amp;showinfo=0&autoplay=1&loop=1&playlist=i_nNfNcdBOY" frameborder="0"></iframe>
+	    	 <div id="over">GET</div>
+	    	 <div id = "overtwo">MOVING</div>
+
+
+
+    <div id="footer">
+      <p>
+        Webpage made by <a href="about.html">Nikunj Parasar</a>
+      </p>
+    </div>
+
+	    <div id="logo">
+	      <h1 style = "color: white">Sports 24/7</</h1>
+	    </div>
+
+	    <div id="content">
+
+	          <div class = "container">
+	            <a href= "https://www.usta.com/en/home.html"><img src = "http://www.silvermangroup.com/cms/wp-content/uploads/2014/01/USTA-FYIG_300.jpg"></img></a>
+
+	          </div>
+	      <h2 style = "color:white">Sports that I play</h2>
+
+
+	      	<dl>
+
+	      	<dt>Tennis</dt>
+
+	      		<dd>Tennis is my favorite sport and I have been playing it for about 6 years now. I play at a competetive level right now and also play for Lawson Tennis, which came second place last year. and has won the championships 4 times in a row. I am currently trying to work my way up to the top of the USTA league, but i'll get there one day.</dd>
+	      			<br>
+	      	<dt>Kung Fu<dt> 
+
+
+	      		<dd>I started Kung Fu at the age of five, and now I am a First Degree Black-Belt, and I have been to many competitions, and performances. I am aiming for a gold medal in the competition coming up this august.</dd>
+	      			<br>
+	      	<dt>Soccer</dt>
+	      		<dd>I got an interest in soccer very late during fourth grade. I played for the team at my elementary school, then came to Lawson middle, still considering it my main sport. But then I had to make the choice between soccer and tennis. I chose Tennis knowing the cometition there was at Lawson. Even tody I dont play soccer much as I just keep that skill for use when I will need to play with friends for fun. I still follow up with the news about soccer. 
+
+
+	      		</dd>
+
+
+	      	</dl>
+
+
+
+
+
+
+
+
+	      	
+
+	    </div>
+
+
+  </div>
+
+
+    </body>
+
+
+</html>

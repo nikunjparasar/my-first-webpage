@@ -1,0 +1,40 @@
+
+td{text-align:center;}
+table, th,td,tr{border: 20px solid #00ffff; height: 200%; width:100%; display: block;}
+th, td{padding: 10px; color:white;}
+a:hover{color:red;}
+
+h1{
+  color: #00ffff;
+  font-family: impact;
+  text-align: center;
+  font-size: 400%;
+
+}
+
+h2
+{
+  font-size: 300%;
+  font-family: courier;
+}
+
+button{
+  border-radius: 5;
+  border: 15px solid green;
+  height:100px;
+  width:200px;
+  background-color:black;
+  color:green;
+  font-size:150%;
+  font-family: monospace;
+}
+
+.moving{
+  text-align: center;
+
+}
+
+img{
+  height:90%;
+  width:100%;
+}
